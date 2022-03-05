@@ -1,0 +1,12 @@
+
+
+
+
+@mixin fancy-box {
+    background-color: gradient(#ddd6f3, #faaca8)
+
+}
+
+nav {
+    @include fancy-box;
+}

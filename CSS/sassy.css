@@ -1,0 +1,95 @@
+
+* {
+    font-family: 'Playfair Display', serif;
+    color: rgb(211, 231, 249);
+}
+body {
+    background: black
+}
+@media screen and (max-width: 414px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+h1, h4 {
+    font-style: italic;
+}
+
+.colorTheme {
+    background: linear-gradient(135deg, #3f0ce7d5, #faaca8);
+}
+
+header, footer {
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* @media only screen and (max-width: 414px) { */
+
+    /* background-color: blue;
+}
+body{
+
+nav ul li {
+   
+    list-style-type:none;
+    padding: 10px;
+    font-size: 1.5em;
+    }
+} */
+
+/* is this media quert size correct for desktop?*/
+
+/* @media screen and (min-width: 500px) {
+
+    body{
+        border: red;
+    }
+    
+nav ul li {
+   
+    list-style-type:none;
+    display: inline-block;
+    align-content: space-around;
+    height: 100%;
+    padding: 10px;
+    font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 414px) {} */
+
+img {
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.portfolio {
+    background-color: aliceblue;
+    height: 200px;
+    width: 200px;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+#portfolioSection {
+    margin:auto;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+#portfolioSection section div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
