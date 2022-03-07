@@ -16,6 +16,12 @@ nav ul li {
     justify-content: center;
     align-content: space-between;
 }
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 img {
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
@@ -59,6 +65,7 @@ h1, h2, h4 {
 
 }
 
+
 .colorTheme {
     background: linear-gradient(135deg, #3f0ce7d5, #faaca8);
 }
@@ -70,11 +77,15 @@ main {
 
 footer {
     height: 80px;
-    display: flex;
-    justify-content: flex-start;
-    align-content: flex-end;
     bottom: 0px;
 }
+
+.colorTheme>p{
+        bottom: 0px;
+        margin-left:45%;
+    }
+
+
 /*-------------------Phone----------------------*/
 @media screen and (max-width: 414px) {
     body {
@@ -126,7 +137,7 @@ nav ul li {
     font-size: 1.5em;
     }
     
-    #portfolioSection section div {
+#portfolioSection section div {
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
@@ -136,7 +147,17 @@ nav ul li {
     display: flex;
     align-items: center;
 }
-   
+
+#welcomeImg {
+    padding: 20px;
+    transform: translate (-300px);
+}
+
+#welcomeTxt {
+    padding-top: 150px;
+    margin: 20px;
+}
+
 }
 
 /*--------------- Small devices (portrait tablets and large phones, 600px and up) ---------------*/
