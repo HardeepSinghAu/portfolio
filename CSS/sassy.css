@@ -1,45 +1,62 @@
 
 * {font-family: 'Playfair Display', serif;
     color: rgb(211, 231, 249);
+    box-sizing: border-box;
 }
 /* ---------all----------*/
 body {
-    background: black
+    background: black;
+    padding: 0px;
+    margin: 0px;
 }
 nav ul li {
     list-style-type: none;
-    padding: 10px;
+    padding: 13px;
     font-size: 1.5em;
     justify-content: center;
+    align-content: space-between;
 }
 img {
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 
+.square {
+    clip-path: none;
+    height: 2em;
+    width: 2em;
+    border-radius: 2px;
+}
 .portfolio {
     background-color: aliceblue;
     height: 200px;
     width: 200px;
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-}
+    display: flex;
+    justify-content: center;
+    }
 
+#portfolioSection section div {
+    display: flex;
+    flex-wrap: wrap;
+}
+#portfolioSection section div img {
+    height: 195px;
+    width: 180px;
+}
 #portfolioSection {
     margin:auto;
     height: auto;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
 }
 
-#portfolioSection section div {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-h1, h4 {
+h1, h2, h4 {
     font-style: italic;
+    display: block;
+
 }
 
 .colorTheme {
@@ -50,6 +67,14 @@ main {
     flex-wrap: wrap;
     margin: auto;
 }
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    bottom: 0px;
+}
 /*-------------------Phone----------------------*/
 @media screen and (max-width: 414px) {
     body {
@@ -57,7 +82,8 @@ main {
     }
 
     main {
-       width: 99%;
+       width: 90%;
+       margin: 0 10px;
 }
 
     header {
@@ -65,7 +91,12 @@ main {
         display: block;
         align-content: stretch;
         justify-content: center;
+        margin: 0px;
+        padding: 0px;
+}
 
+.portfolio {
+    padding-left: 30px;
 }
 }
 
@@ -78,42 +109,13 @@ body {
 main {
     width: 60%;
 }
-header, footer {
+header {
     height: 80px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: space-evenly;
 }
-
-#portfolioSection section div {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-}
-}
-
-/* @media only screen and (max-width: 414px) { */
-
-    /* background-color: blue;
-}
-body{
-
-nav ul li {
-   
-    list-style-type:none;
-    
-    }
-} */
-
-/* is this media quert size correct for desktop?*/
-
-/* @media screen and (min-width: 500px) {
-
-    body{
-        border: red;
-    }
-    
 nav ul li {
    
     list-style-type:none;
@@ -123,7 +125,29 @@ nav ul li {
     padding: 10px;
     font-size: 1.5em;
     }
+    
+    #portfolioSection section div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
 }
+.welcome {
+    float: left;
+    width: auto;
+   
+}
+
+/*--------------- Small devices (portrait tablets and large phones, 600px and up) ---------------*/
+@media only screen and (min-width: 600px) {
+    background: pink;
+
+}
+
+/* ---------------Medium devices (landscape tablets, 768px and up) ---------------
+@media only screen and (min-width: 768px) {...}
+
+
+/*
 
 @media only screen and (max-width: 414px) {} */
 
