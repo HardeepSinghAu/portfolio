@@ -131,9 +131,11 @@ nav ul li {
     flex-wrap: wrap;
     margin: 20px;
 }
-.welcome {
-    float: left;
-    width: auto;
+
+#holdWelcome {
+    display: flex;
+    align-items: center;
+}
    
 }
 
