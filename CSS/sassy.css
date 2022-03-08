@@ -11,7 +11,7 @@ body {
 }
 nav ul li {
     list-style-type: none;
-    padding: 13px;
+    padding: 10%;
     font-size: 1.5em;
     justify-content: center;
     align-content: space-between;
@@ -25,6 +25,7 @@ p {
 img {
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
+
 
 .square {
     clip-path: none;
@@ -61,7 +62,7 @@ img {
 
 h1, h2, h4 {
     font-style: italic;
-    display: block;
+    width: 100%
 
 }
 
@@ -85,7 +86,15 @@ footer {
         margin-left:45%;
     }
 
+.bloggy {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    height: 100px;
+    width: 100px;
+}
 
+.flexxy {
+    display: flex;
+}
 /*-------------------Phone----------------------*/
 @media screen and (max-width: 414px) {
     body {
@@ -140,7 +149,7 @@ nav ul li {
 #portfolioSection section div {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin-left: 45%;
 }
 
 #holdWelcome {
@@ -149,21 +158,43 @@ nav ul li {
 }
 
 #welcomeImg {
-    padding: 20px;
-    transform: translate (-300px);
+    padding-top: 20%;
+    /* transform: translate (-300px); */
+    height: 100%;
+    width: 100%;
 }
 
 #welcomeTxt {
-    padding-top: 150px;
-    margin: 20px;
+    padding-top: 20%;
+    margin: 5%;
+    
 }
 
 }
 
 /*--------------- Small devices (portrait tablets and large phones, 600px and up) ---------------*/
-@media only screen and (min-width: 600px) {
+@media 
+  (max-device-width: 414px)
+  and (max-device-height: 1024px) { 
+
     background: pink;
 
+    /* header {
+        height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-evenly;
+    }
+    nav ul li {
+   
+        list-style-type:none;
+        display: inline-block;
+        align-content: space-around;
+        height: 100%;
+        padding: 10px;
+        font-size: 1.5em;
+        } */
 }
 
 /* ---------------Medium devices (landscape tablets, 768px and up) ---------------
