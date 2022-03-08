@@ -42,22 +42,18 @@ img {
     justify-content: center;
     }
 
-#portfolioSection section div {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 #portfolioSection section div img {
-    height: 195px;
-    width: 180px;
+    height: 100%;
+    width: 100%;
 }
 #portfolioSection {
-    margin:auto;
-    height: auto;
-    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
+    width: 95%;
+    margin: 0 30%;
 }
 
 h1, h2, h4 {
@@ -69,11 +65,6 @@ h1, h2, h4 {
 
 .colorTheme {
     background: linear-gradient(135deg, #3f0ce7d5, #faaca8);
-}
-main {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
 }
 
 footer {
@@ -94,6 +85,8 @@ footer {
 
 .flexxy {
     display: flex;
+    width: 85%;
+    margin-left: 10%;
 }
 /*-------------------Phone----------------------*/
 @media screen and (max-width: 414px) {
@@ -101,10 +94,7 @@ footer {
       background-color: lightblue;
     }
 
-    main {
-       width: 90%;
-       margin: 0 10px;
-}
+ 
 
     header {
         height: 300px;
@@ -126,9 +116,6 @@ body {
     background-color: green;
     }
 
-main {
-    width: 60%;
-}
 header {
     height: 80px;
     display: flex;
@@ -158,24 +145,21 @@ nav ul li {
 }
 
 #welcomeImg {
-    padding-top: 20%;
     /* transform: translate (-300px); */
     height: 100%;
     width: 100%;
 }
 
 #welcomeTxt {
-    padding-top: 20%;
+    padding-top: 5%;
     margin: 5%;
-    
+
 }
 
 }
 
 /*--------------- Small devices (portrait tablets and large phones, 600px and up) ---------------*/
-@media 
-  (max-device-width: 414px)
-  and (max-device-height: 1024px) { 
+@media only screen and (min-device-width: 414px) and (max-device-width: 1024px) { 
 
     background: pink;
 
