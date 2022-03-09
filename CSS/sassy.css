@@ -29,7 +29,7 @@ img {
 
 h1, h2, h4 {
     font-style: italic;
-    width: 100%
+    width: 100%;
 
 }
 
@@ -48,7 +48,7 @@ footer {
         margin-left:45%;
     }
 
-    .flexxy {
+.flexxy {
         display: flex;
         width: 85%;
         margin-left: 10%;
@@ -62,13 +62,26 @@ footer {
     border-radius: 2px;
 }
 /*----------portfolio----------*/
+#portfolioSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    margin: 0 30%;
+    
+}
+
 .portfolio {
     background-color: aliceblue;
-    height: 200px;
-    width: 200px;
+    height: 30%;
+    width: 50%;
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 10%;
+    
     }
 
     /* .portfolio>span {
@@ -79,20 +92,19 @@ footer {
     } */
 
 #portfolioSection section  img {
-    height: 200px;
-    width: 100px;
+    height: 100%;
+    width: 100%;
 }
-#portfolioSection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-    width: 100%%;
-    margin: 0 30%;
-}
+
 
 
     /*----------blog----------*/
+.flexxy.blogContainer {
+   background-color: red;
+}
+.blogSection {
+    flex-wrap: wrap;
+}
 .bloggy {
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     height: 100px;
