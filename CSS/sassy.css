@@ -72,7 +72,7 @@ footer {
     
 }
 
-.portfolio {
+.portfolio.colorTheme {
     background-color: aliceblue;
     height: 30%;
     width: 50%;
@@ -81,7 +81,6 @@ footer {
     justify-content: space-between;
     align-content: space-between;
     margin-bottom: 10%;
-    
     }
 
     /* .portfolio>span {
@@ -91,14 +90,21 @@ footer {
         color:rgb(133, 186, 233)
     } */
 
-#portfolioSection section  img {
+.portfolio.colorTheme img {
     height: 100%;
     width: 100%;
+}
+.portfolio.colorTheme span {
+    z-index: 10;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    position: relative;
 }
 
 
 
-    /*----------blog----------*/
+    /*----------BLOG----------*/
 .flexxy.blogContainer {
    background-color: red;
 }
@@ -111,7 +117,59 @@ footer {
     width: 100px;
 }
 
+    /*----------FORM----------*/
+.formHeader {
+    width: 20%;
+}
 
+    form {
+    width: 80%;
+}
+    input {
+    color: rgb(56, 118, 172);
+}
+
+input[type=text], input[type=tel], select {
+  width: 100%;
+  padding: 2%;
+  margin: 2%;
+  display: inline-block;
+  border: 1px solid aliceblue;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(3, 29, 52);
+}
+
+textarea {
+    width: 100%;
+    padding: 2%;
+    margin: 2%;
+    display: inline-block;
+    border: 1px solid aliceblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(3, 29, 52);
+  }
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(16, 58, 95);
+  color: aliceblue;
+  padding: 2%;
+  margin: 2%;
+  border: 1px solid aliceblue;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(117, 168, 212);
+}
+
+::placeholder { 
+    color: aliceblue;
+}
+    
 /*-------------------Phone----------------------*/
 @media screen and (max-width: 414px) {
     body {

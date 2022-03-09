@@ -25,12 +25,14 @@
     </header>
     <main>
         <section class="flexxy">    
-            <h2>Connect, Collaborate & Create</h2>
-            <form>
-                name
-                Contact number
-                Message
-                Submit
+            <h2 id="formHeader">Connect, Collaborate & Create</h2><hr>
+            <form action="/action_page.php" target="_top" method="post" id="formy">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Full name" required><br>
+                <label for="phone"></label>
+                <input type="tel" id="number" name="number" placeholder="Contact number" required><br>
+                <textarea rows="10" cols="80" name="message" form="formy" placeholder="Text me!"></textarea>
+                <input type="submit" value="Submit">
             </form>
         </section>
     </main>
