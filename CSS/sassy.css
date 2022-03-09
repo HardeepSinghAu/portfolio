@@ -26,6 +26,34 @@ img {
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 
+
+h1, h2, h4 {
+    font-style: italic;
+    width: 100%
+
+}
+
+
+.colorTheme {
+    background: linear-gradient(135deg, #3f0ce7d5, #faaca8);
+}
+
+footer {
+    height: 80px;
+    bottom: 0px;
+}
+
+.colorTheme>p{
+        bottom: 0px;
+        margin-left:45%;
+    }
+
+    .flexxy {
+        display: flex;
+        width: 85%;
+        margin-left: 10%;
+    }
+
 /*----------index----------*/
 .square {
     clip-path: none;
@@ -33,6 +61,7 @@ img {
     width: 2em;
     border-radius: 2px;
 }
+/*----------portfolio----------*/
 .portfolio {
     background-color: aliceblue;
     height: 200px;
@@ -62,38 +91,15 @@ img {
     margin: 0 30%;
 }
 
-h1, h2, h4 {
-    font-style: italic;
-    width: 100%
 
-}
-
-
-.colorTheme {
-    background: linear-gradient(135deg, #3f0ce7d5, #faaca8);
-}
-
-footer {
-    height: 80px;
-    bottom: 0px;
-}
-
-.colorTheme>p{
-        bottom: 0px;
-        margin-left:45%;
-    }
-
+    /*----------blog----------*/
 .bloggy {
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     height: 100px;
     width: 100px;
 }
 
-.flexxy {
-    display: flex;
-    width: 85%;
-    margin-left: 10%;
-}
+
 /*-------------------Phone----------------------*/
 @media screen and (max-width: 414px) {
     body {
