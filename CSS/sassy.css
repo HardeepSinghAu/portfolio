@@ -239,32 +239,14 @@ nav ul li {
 }
 
 }
-/* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
 
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-    background: pink;
-
-}
 /*--------------- Small devices (portrait tablets and large phones, 600px and up) ---------------*/
 @media only screen and (min-device-width: 414px) and (max-device-width: 1024px) { 
 
     body {
         background: pink;
     }
-    /* header {
+    header {
         height: 80px;
         display: flex;
         flex-wrap: wrap;
@@ -279,7 +261,7 @@ nav ul li {
         height: 100%;
         padding: 10px;
         font-size: 1.5em;
-        } */
+        } 
 }
 
 /* ---------------Medium devices (landscape tablets, 768px and up) ---------------
