@@ -35,9 +35,11 @@ img {
 h1, h2, h4 {
     font-style: italic;
     width: 100%;
-
 }
 
+h1 {
+    font-size: 50px;
+}
 
 .colorTheme {
     background: linear-gradient(135deg, #3f0ce7d5, #faaca8);
@@ -177,17 +179,21 @@ input[type=submit]:hover {
       background-color: lightblue;
     }
 
- 
+ .portfolio.colorTheme {
+     width: 100%
+ }
 
     header {
-        height: 300px;
+        height: 100%;
         display: block;
-        align-content: stretch;
         justify-content: center;
         margin: 0px;
         padding: 0px;
 }
 
+li {
+    height: 1em;
+}
 .portfolio {
     padding-left: 30px;
 }
