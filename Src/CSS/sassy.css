@@ -132,12 +132,8 @@ iframe {
 }
 
     /*----------FORM----------*/
-    #flexForm {
-        display: flex;
-    }
-    
-    #formHeader {
-    
+.formHeader {
+    width: 20%;
 }
 
     form {

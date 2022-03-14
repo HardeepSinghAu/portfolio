@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/sassy.css">
+    <link rel="stylesheet" href="/Src/CSS/sassy.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,600;1,700&display=swap" rel="stylesheet">
@@ -24,9 +24,11 @@
         </nav>
     </header>
     <main>
-        <section class="flexxy">    
-            <h2 id="formHeader">Connect, Collaborate & Create</h2><hr>
-            <form action="/action_page.php" target="_top" method="post" id="formy">
+        <section id="flexForm">   
+            <h1 id="formHeader">Connect, Collaborate & Create</h2><hr>
+            <section>
+            </section>
+            <section><form action="/action_page.php" target="_top" method="post" id="formy">
                 <label for="name"></label>
                 <input type="text" id="name" name="name" placeholder="Full name" required><br>
                 <label for="phone"></label>
@@ -34,6 +36,7 @@
                 <textarea rows="10" cols="80" name="message" form="formy" placeholder="Text me!"></textarea>
                 <input type="submit" value="Submit">
             </form>
+            </section>
         </section>
     </main>
     <footer class="colorTheme"><p>&copy; Copyright 2022 Hardeep Singh</p></footer>
