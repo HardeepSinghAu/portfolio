@@ -86,13 +86,13 @@ iframe {
     justify-content: space-between;
     align-content: space-between;
     width: 100%;
-    margin: 0 30%;
+    margin: 0 20%;
     
 }
 
 .portfolio.colorTheme {
     background-color: aliceblue;
-    height: 30%;
+    height: 15%;
     width: 50%;
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
     display: flex;
