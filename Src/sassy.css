@@ -145,7 +145,7 @@ iframe {
     color: rgb(56, 118, 172);
 }
 
-input[type=text], input[type=tel], select {
+input[type=text], input[type=tel], input[type=email], select {
   width: 100%;
   padding: 2%;
   margin: 2%;
