@@ -106,29 +106,31 @@ iframe {
     width: 100%;
 }
 .portfolio.colorTheme span {
-    z-index: 10;
-    text-align: center;
+
     color: black;
     font-size: 20px;
-    position: relative;
+   
 }
 
 
 
     /*----------BLOG----------*/
-.flexxy.blogContainer {
-   background-color: red;
-   display: flex;
-   width: 80%;
+#blogHeader {
+    margin-left: 25%;
+}
+
+.blogContainer {
+   width: 85%;
+   padding: 0 15%;
 }
 .blogSection {
-    flex-wrap: wrap;
-    width: 50%;
+    width: 100%;
+    display: block;
 }
 .bloggy {
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
     /*----------FORM----------*/
