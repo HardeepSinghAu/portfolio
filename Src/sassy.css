@@ -70,8 +70,6 @@ footer section {
     display: inline-block;
    margin-left: 20%;
    margin-top: 1em;
-   
-    
 }
 .colorTheme>p{
         margin-left:5%;
@@ -207,9 +205,18 @@ input[type=submit]:hover {
     
 /*-------------------Phone----------------------*/
 @media screen and (max-width: 414px) {
-    body {
-      background-color: lightblue;
+    .flexxy {
+        flex-direction: column;
     }
+
+    #portfolioSection, #blogHeader {
+        margin-left: 5%;
+        width: 100%;
+    }
+    
+    .blogContainer {
+       width: 100%;
+       padding: 0 5%;
 
     #welcomeTXT {
         width: 100%;
