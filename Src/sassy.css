@@ -307,11 +307,8 @@ nav ul li {
 }
 
 /*--------------- Small devices (portrait tablets and large phones, 600px and up) ---------------*/
-@media only screen and (min-device-width: 414px) and (max-device-width: 1024px) { 
+@media only screen and (min-width: 414px) and (max-width: 1024px) { 
 
-    body {
-        background: pink;
-    }
     header {
         height: 80px;
         display: flex;
