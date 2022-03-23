@@ -30,7 +30,7 @@ The primary function of this website is to allow the user to peruse a profession
 
 ## Sitemap
 
-![A site map of the portfolio website](/Users/hardeepsingh/Documents/Coder/Portfolio/docs/sitemap.png "Portfolio Site map")
+![A site map of the portfolio website](/docs/sitemap.png "Portfolio Site map")
 
 ## Design choices
 - A simple website, with stylish elements of complexity (colour theme and clip-path used on images)
@@ -40,14 +40,14 @@ The primary function of this website is to allow the user to peruse a profession
 - Purposeful and concise content
 - Responsive to different viewports 
 
-![Screenshot of the website in action](/Users/hardeepsingh/Documents/Coder/Portfolio/docs/website.png "Website in action")
+![Screenshot of the website in action](docs/website.png "Website in action")
 
 ## Website Responsiveness
 The website was built using media queries for responsiveness across mobile, tablet and desktop view.
 
-![Screenshot of Desktop view wireframe](/Users/hardeepsingh/Documents/Coder/Portfolio/docs/About_dt.png "Desktop view")
-![Screenshot of Mobile view wireframe](/Users/hardeepsingh/Documents/Coder/Portfolio/docs/About_mb.png "Mobile view")
-![Screenshot of Tablet view wireframe](/Users/hardeepsingh/Documents/Coder/Portfolio/docs/About_tb.png "Tablet view")
+![Screenshot of Desktop view wireframe](docs/Contact_dt.png "Desktop view")
+![Screenshot of Mobile view wireframe](docs/Contact_mb.png "Mobile view")
+![Screenshot of Tablet view wireframe](docs/Contact.png "Tablet view")
 
 ## Target audience
 The target audience for this website is a potential employer. The wireframe shows my ambitions and designs for the website and the website itself showcases my skills and abilities. By presenting both the wireframe and the website any user can see the gap in my skills but also my soft-skills such as critical thinking, positivity and work ethic to make the concept actualise into reality as best as possible. 
@@ -63,13 +63,13 @@ The target audience for this website is a potential employer. The wireframe show
 
 I created a to-do list on paper for general tasks and a large task-list specifically for the website only. This was **always** by my side whilst working on the project. I could easily access and view what needed to be done, but also jot down new tasks as they were recalled and remain focused whilst keeping the momentum going on the project. The tasks on the Portfolio project list, were given a prioirty rating from 1 to 5, with 1 being of the highest priority. I felt this was a good system that worked personally for me. However when working in a team, something more accessible online such as a **Trello board** would serve better.
 
-![Image of list of tasks to complete](/Users/hardeepsingh/Documents/Coder/Portfolio/docs/todo.png "Task list")
+![Image of list of tasks to complete](docs/todo.png "Task list")
 
-![Image of list of tasks to specifically for portfolio website only](/Users/hardeepsingh/Documents/Coder/Portfolio/docs/planning.png "Portfolio task list")
+![Image of list of tasks to specifically for portfolio website only](/docs/planning.png "Portfolio task list")
 
 
 I used Balsamiq to draft wireframes of my portfolio across all pages in the different viewports. 
-![Wireframe image of Contact Page across desktop, tablet and phone view ](/Users/hardeepsingh/Documents/Coder/Portfolio/docs/responsive.png "Planning the website to be responsive across Desktop, tablet and mobile phone view")
+![Wireframe image of Contact Page across desktop, tablet and phone view ](docs/responsive.png "Planning the website to be responsive across Desktop, tablet and mobile phone view")
 
 ### My Mantra for this project
 > *"Nothing is Impossible. The word itself, says I'm Possible"
